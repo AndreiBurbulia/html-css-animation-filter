@@ -45,3 +45,79 @@
 .ex-4-square:hover{
     opacity: 0;
 }
+
+/****************** Esercizio 5 ******************/
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: all 2s;
+}
+.ex-5-square:hover{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+
+/****************** Esercizio 6 ******************/
+.ex-6-img {
+    width: 500px;
+    transition: all;
+
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+/****************** Esercizio 7 ******************/
+.ex-7-img {
+    width: 500px;
+    transition: all 2s;
+}
+
+.ex-7-img:hover{
+    filter:saturate(10) sepia(5);
+}
+
+/****************** Esercizio 8 ******************/
+.ex-8-img {
+    width: 500px;
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+    filter:saturate(10) contrast(1);
+    border-radius: 1rem;
+}
+/****************** Esercizio 9 ******************/
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+    transition: all 4s;
+
+}
+.ex-9-img:hover{
+    filter:saturate(10) contrast(1);
+    border-radius: 1rem;
+    width: 600px;
+}
+
+/****************** Esercizio 9 ******************/
+
+.ex-10-icon {
+    font-size: 60px;
+    transition: all;
+}
+
+.ex-10-icon:hover{
+    
+}
