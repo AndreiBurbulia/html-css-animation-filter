@@ -111,13 +111,63 @@
     width: 600px;
 }
 
-/****************** Esercizio 9 ******************/
+/****************** Esercizio 10 ******************/
 
 .ex-10-icon {
     font-size: 60px;
-    transition: all;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-.ex-10-icon:hover{
-    
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+        
+    }
+    50%{
+        transform: rotate(180deg);
+        
+    }
+    75%{
+        transform: rotate(270deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
+
+
+/****************** Esercizio 11 ******************/
+.ex-11-icon {
+    font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    animation-name: speed;
+    animation-duration: 2s;
+}
+
+@keyframes speed {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);   
+    }
+    75%{
+        transform: rotate(270deg);  
+    }
+    100%{
+        transform: rotate(0deg);   
+    }
 }
